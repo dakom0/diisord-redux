@@ -5,13 +5,7 @@ import "./Message.css"
 function Message({ timestamp, user, message }) {
 
     console.log(timestamp)
-    console.log(timestamp)
-    console.log(timestamp)
-    console.log(timestamp)
-    console.log(timestamp)
-    console.log(timestamp)
-    console.log(timestamp)
-    console.log(timestamp)
+  
     return (
         <div className="message">
             <Avatar src={user.photo}/>
